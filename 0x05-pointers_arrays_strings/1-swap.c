@@ -1,15 +1,16 @@
 #include "main.h"
 /**
  * swap_int - function that swaps th value of 2 integers
- * @a: int
- * @b: int
+ * @a: memory location that swaps and stores value of b
+ * @b: memory location that swaps and stores value of a
+ * Return:0
  */
 
 void swap_int (int *a, int *b)
 {
-	 int m;/* used as temporary storage*/
+	int change;
 
-	 m = *a; /*a value is put into temporary storage*/
-	 *a = *b; /*b value is put into temporary storage*/
-	 *b = *m; /*a value in temporary storage is put into b and vice versa*/
+	change = *b;
+	*b = *a;
+	*a = change;
 }
