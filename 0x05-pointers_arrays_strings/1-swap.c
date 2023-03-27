@@ -7,9 +7,9 @@
 
 void swap_int (int *a, int *b)
 {
-	 int m;
+	 int m;/* used as temporary storage*/
 
-	 m = *a;
-	 *a = *b;
-	 *b = *m;
+	 m = *a; /*a value is put into temporary storage*/
+	 *a = *b; /* b value is put into temporary storage*/
+	 *b = *m; /* a value in temporary storage is put into b and vice versa*/
 }
