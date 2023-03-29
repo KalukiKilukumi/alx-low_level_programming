@@ -3,7 +3,7 @@
 /**
  * puts2:- prints every other character of a string,
  * starting with the first character
- * @s: string arrays
+ * @str: string arrays
  */
 
 void puts2(char *str)
