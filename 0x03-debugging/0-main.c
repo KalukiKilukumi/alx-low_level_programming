@@ -2,7 +2,6 @@
 
 /**
  * main - determine whether a number is negative or positive
- * i: number to be checked
  * Return:0 on success
  */
 
